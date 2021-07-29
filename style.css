@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-page{
+    width: 100%;
+    height: 100vh;
+    background: url("https://s1.1zoom.ru/big0/508/Dogs_Autumn_Run_Australian_Shepherd_Foliage_Bokeh_588546_1280x849.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.main-gradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right top, rgba(255, 108, 3, 0.575), rgba(109, 108, 39, 0.411));
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+
+.top a {
+    color: darkgray;
+    text-decoration: none;
+    font-size: 24px;
+    border: 1px solid rgb(224, 221, 221);
+padding: 6px 20px;
+}
+
+.center {
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.bottom {
+    margin-top: 55px;
+}
+
+.bottom a {
+    margin-right: 20px;
+}
+
+@media (max-width: 420px) {
+     h1 {
+         font-size: 64px;
+     }
+
+     .center {
+         margin-top: 80px;
+     }
+
+     .bottom {
+         margin-top: 40px;
+     }
+    
+}
